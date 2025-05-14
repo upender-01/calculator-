@@ -1,0 +1,38 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator2.css">
+    <link re="icon" href="file:///C:/Users/bhuky/Downloads/calculator.png">
+ </head>
+ <body><div id="border1">
+   <b>casio</b>
+    <input type="text" placeholder="ENTER THE VALUE" id="display" readonly>
+    <button class="elements" value="7" onclick="handleClick(this)">7</button>
+    <button class="elements" value="8" onclick="handleClick(this)">8</button>
+    <button class="elements" value="9" onclick="handleClick(this)">9</button>
+    <button class="elements" value="4" onclick="handleClick(this)">4</button>
+    <button class="elements" value="5" onclick="handleClick(this)">5</button>
+    <button class="elements" value="6" onclick="handleClick(this)">6</button>
+    <button class="elements" value="1" onclick="handleClick(this)">1</button>
+    <button class="elements" value="2" onclick="handleClick(this)">2</button>
+    <button class="elements" value="3" onclick="handleClick(this)">3</button>
+    <button class="elements" value="0" onclick="handleClick(this)">0</button>
+    <button class="elements" value="." onclick="handleClick(this)">.</button>
+
+    <button class="elements" value="+" onclick="handleClick(this)">+</button>
+    <button class="elements" value="-" onclick="handleClick(this)">-</button>
+    <button class="elements" value="*" onclick="handleClick(this)">*</button>
+    <button class="elements" value="*" onclick="handleClick(this)">/</button>
+    <button class="elements" onclick="clearDisplay()">C</button>     
+    <button class="elements" onclick="deleteLast()">DE</button>
+    <button class="elements" onclick="calculate()">=</button>
+
+  </div>
+    </div>
+    <script src="calculator2.js">
+    </script>
+ </body>
+ </html>
